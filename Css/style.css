@@ -1,0 +1,52 @@
+
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+body {
+	color: #6986E5;
+	background-color : #FCFFF7;
+}
+
+a{
+	text-decoration: none ;
+	color : #6986E5;
+	transition : color 0.3s ease;
+}
+
+a:hover{
+	background-color:#6986E5;
+	color : #FCFFF7;
+}
+
+@media (max-width:720px){
+	.banner {
+		width:600px;
+	}
+}
+
+@media (max-width:580px){
+	.banner {
+		width:480px;
+	}
+}
+
+@media (max-width:400px){
+	.banner {
+		width:340px;
+	}
+
+}
+
+@media (max-width:300px){
+	.banner {
+		width:240px;
+	}
+	
+}
+
+@media (max-width:200px){
+	.banner {
+		width:180px;
+	}
+	
+}
