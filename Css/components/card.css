@@ -1,5 +1,5 @@
 .card{
-	margin : 35px;
+	margin : 50px;
 	padding: 20px;
 	background-color:#6986E5;
 	color : #FCFFF7;
@@ -7,9 +7,9 @@
 	box-shadow : 5px 5px 3px grey;
 	display: flex;
  	align-items: center;
-  justify-content: space-between;
-  flex-grow: 1;
-  card-basis : 300px;
+  	justify-content: space-between;
+  	flex-grow: 1;
+ 	 card-basis : 300px;
 }
 
 .card img {
